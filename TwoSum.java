@@ -46,5 +46,6 @@ public class TwoSum {
         int t = sc.nextInt();
         int[] res = (twoSum(array,t));
         System.out.println("Add element in Index : " + res[0] + " and Index " + res[1] + " to get target value " + t +".");
+        sc.close();
     }
 }
