@@ -35,5 +35,6 @@ public class DetectCapital {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         System.out.println(detectCapital(str));
+        sc.close();
     }
 }
